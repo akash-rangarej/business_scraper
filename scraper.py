@@ -48,7 +48,7 @@ def prompt_filename(default_name: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Plugin-based business listing scraper (Google / Facebook)"
+        description="Plugin-based business listing scraper (Google / justdial / sulekha )"
     )
     parser.add_argument("site", choices=PLUGINS.keys(), help="Which website's plugin to run")
     parser.add_argument(
